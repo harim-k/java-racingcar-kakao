@@ -1,4 +1,4 @@
-package Car;
+package Domain;
 
 import Utils.NumberUtil;
 

@@ -1,4 +1,4 @@
-package Car;
+package Domain;
 
 public class Car {
     private static final int MOVE_CONDITION_THRESHOLD = 4;

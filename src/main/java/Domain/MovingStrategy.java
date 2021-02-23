@@ -1,4 +1,4 @@
-package Car;
+package Domain;
 
 public class MovingStrategy {
 

@@ -1,6 +1,6 @@
-package UI;
+package View;
 
-import Car.Car;
+import Domain.Car;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,7 +21,7 @@ public class OutputView {
         return s;
     }
 
-    public static void printWinnerCars(List<Car> winnerCars) {
+    public static void printWinningCars(List<Car> winnerCars) {
         String winnerCarNames = winnerCars.stream()
                 .map(Car::getName)
                 .collect(Collectors.joining(", "));

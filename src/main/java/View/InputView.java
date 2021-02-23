@@ -1,4 +1,4 @@
-package UI;
+package View;
 
 import java.util.List;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Car;
+package Domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,15 +27,15 @@ public class Cars {
         }
     }
 
-    public List<Car> findLeadingCars() {
-        Car leadingCar = findLeadingCar();
+    public List<Car> findWinningCars() {
+        Car leadingCar = findWinningCar();
 
         return cars.stream()
                 .filter(car -> car.isAtSamePositionWith(leadingCar))
                 .collect(Collectors.toList());
     }
 
-    private Car findLeadingCar() {
+    private Car findWinningCar() {
         Car leadingCar = cars.get(0);
 
         for (Car car : cars) {

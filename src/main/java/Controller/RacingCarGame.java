@@ -1,8 +1,8 @@
-package RacingCarGame;
+package Controller;
 
-import Car.Cars;
-import UI.InputView;
-import UI.OutputView;
+import Domain.Cars;
+import View.InputView;
+import View.OutputView;
 
 import java.util.List;
 
@@ -19,6 +19,6 @@ public class RacingCarGame {
             OutputView.printCars(cars.getCars());
         }
 
-        OutputView.printWinnerCars(cars.findLeadingCars());
+        OutputView.printWinningCars(cars.findWinningCars());
     }
 }

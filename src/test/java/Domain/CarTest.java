@@ -1,4 +1,4 @@
-package Car;
+package Domain;
 
 import org.junit.jupiter.api.Test;
 

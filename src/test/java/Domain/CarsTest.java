@@ -1,4 +1,4 @@
-package Car;
+package Domain;
 
 import org.junit.jupiter.api.Test;
 
@@ -55,7 +55,7 @@ public class CarsTest {
         cars.addCar(loser2);
         cars.addCar(winner2);
 
-        assertThat(cars.findLeadingCars())
+        assertThat(cars.findWinningCars())
                 .extracting(Car::getName)
                 .isEqualTo(Arrays.asList("win1", "win2"));
     }
